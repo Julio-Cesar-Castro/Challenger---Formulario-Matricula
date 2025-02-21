@@ -17,6 +17,7 @@
 
   --surface-primary: #FFFFFF;
   --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
   
   --stroke-default: #D6D3D1;
   --stroke-highlight: #F3541C;
@@ -37,4 +38,29 @@ h1, h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2
+}
+
+.input-wrapper:has([disabled]){
+  opacity: .5;
+}
+
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled);
+
+    border: 1px solid var(--stroke-default);
+    color: var(--text-primary);
+  }
 }
