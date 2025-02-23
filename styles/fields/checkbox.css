@@ -22,7 +22,6 @@
   .checkbox-image {
     flex: 0 0 1.5rem;
     height: 1.5rem;
-    
     background-image: url(../../assets/icons/checkbox-default.svg);
   }
 
@@ -32,8 +31,7 @@
     }
   }
 
-
-  &:has(:checked) .checkbox-image{
+  &:has(:checked) .checkbox-image {
     background-image: url(../../assets/icons/checkbox-checked.svg);
   }
 
