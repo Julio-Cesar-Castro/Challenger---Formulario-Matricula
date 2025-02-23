@@ -1,6 +1,7 @@
 @import url(input.css);
 @import url(droparea.css);
 @import url(radio.css);
+@import url(checkbox.css);
 
 select {
   background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
