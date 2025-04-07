@@ -3,7 +3,7 @@
 
 # ⭐ Estrelas do Amanhã
 
-Desenvolvido para realizar estilização e boas práticas com  ```Formulários``` Estrelas do Amanhã consta com um ótimo design responsivo e moderno.
+Desenvolvido para treinar estilizações e boas práticas com  ```Formulários``` Estrelas do Amanhã consta com um ótimo design responsivo e moderno .
 
 ![Projeto](Estrela-do-amanha.png)
 
