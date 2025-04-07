@@ -10,7 +10,7 @@ main {
   overflow: auto;
   padding: 4rem;
 
-  & .main-container{
+  & .main-container {
     max-width: 33rem;
     margin-left: auto;
   }
@@ -35,7 +35,7 @@ aside {
   & .aside-container {
     max-width: 31rem;
 
-    & > img {
+    &>img {
       margin-top: 2rem;
     }
   }
@@ -43,9 +43,21 @@ aside {
   & h2 {
     font: 600 2.5rem/1.25 var(--font-family);
     margin-bottom: .5rem;
-    
+
     & span {
       color: var(--text-highlight);
     }
+  }
+}
+
+@media (width <=45.5rem) {
+  body {
+    overflow: auto;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
   }
 }
